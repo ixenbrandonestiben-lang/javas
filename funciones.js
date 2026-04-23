@@ -93,6 +93,8 @@ function numeroMayor(num1, num2){
     }
 }
 
+
+
 console.log(numeroMayor(5, 10));
 
 // 9. Contar cuántas letras tiene una palabra usando un ciclo
@@ -104,6 +106,8 @@ for (let letras of palabra) {
 }
 
 console.log("La palabra tiene", contador, "letras.");
+
+
 // 10. Función que cuente cuántas vocales tiene una palabra
 // 11. Función que reciba un número y muestre todos los pares hasta ese número
 // 12. Función que calcule el factorial de un número
