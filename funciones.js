@@ -32,7 +32,6 @@ function parimpar(num){
 console.log(parimpar(10))
 // 3. Función que determine si una persona es mayor de edad
 
-
 function mayorMenor(edad){
     var edad = Number(prompt("ingresa tu edad"))
         if(edad > 18){
@@ -97,6 +96,14 @@ function numeroMayor(num1, num2){
 console.log(numeroMayor(5, 10));
 
 // 9. Contar cuántas letras tiene una palabra usando un ciclo
+var palabra = Number(prompt("Escribe una palabra"))
+let contador = 0;
+
+for (let letras of palabra) {
+    contador++;
+}
+
+console.log("La palabra tiene", contador, "letras.");
 // 10. Función que cuente cuántas vocales tiene una palabra
 // 11. Función que reciba un número y muestre todos los pares hasta ese número
 // 12. Función que calcule el factorial de un número
