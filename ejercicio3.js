@@ -22,7 +22,18 @@ const estudiantes = {
         edad: 18,
         curso: "programacion",
         seccion: "A",
-        nota: 5 
+        nota:{
+            nota1: 78,
+            nota2: 65,
+            nota3: 80,
+            nota4: 79,
+            nota5: 89,
+            nota6: 89,
+            nota7: 97,
+            nota8: 87,
+            nota9: 90,
+            nota10: 85,
+        }
 
     },
     estudiante2 :{
@@ -33,7 +44,18 @@ const estudiantes = {
         edad: 18,
         curso: "programacion",
         seccion: "A",
-        nota: 5 
+        nota:{
+            nota1: 90,
+            nota2: 89,
+            nota3: 80,
+            nota4: 97,
+            nota5: 100,
+            nota6: 89,
+            nota7: 97,
+            nota8: 87,
+            nota9: 85,
+            nota10: 86,
+        }
 
     },
     estudiante3 :{
@@ -41,7 +63,18 @@ const estudiantes = {
         edad: 19,
         curso: "programacion",
         seccion: "A",
-        nota: 5 
+        nota:{
+            nota1: 89,
+            nota2: 87,
+            nota3: 80,
+            nota4: 90,
+            nota5: 89,
+            nota6: 99,
+            nota7: 97,
+            nota8: 100,
+            nota9: 80,
+            nota10: 90,
+        }
 
     },
     estudiante4 :{
@@ -50,15 +83,15 @@ const estudiantes = {
         curso: "programacion",
         seccion: "A",
         nota:{
-            nota1: 89,
-            nota2: 89,
-            nota3: 89,
-            nota4: 89,
-            nota5: 89,
+            nota1: 90,
+            nota2: 95,
+            nota3: 88,
+            nota4: 83,
+            nota5: 80,
             nota6: 89,
             nota7: 97,
             nota8: 87,
-            nota9: 90,
+            nota9: 70,
             nota10: 85,
         }
     }
@@ -67,7 +100,73 @@ const estudiantes = {
 // 3. Promedio de notas por estudiante
 // Cada estudiante tiene un arreglo de notas.
 // Calcular el promedio de cada uno.
+let nota= {
+        nota1: 78,
+        nota2: 65,
+        nota3: 80,
+        nota4: 79,
+        nota5: 89,
+        nota6: 89,
+        nota7: 97,
+        nota8: 87,
+        nota9: 90,
+        nota10: 85,
+    }
+let estudiante1 = {
+    promedio: (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10)
+};
+console.log(estudiante1.promedio)
+},
+estudiante2 :{
+    nota:{
+        nota1: 90,
+        nota2: 89,
+        nota3: 80,
+        nota4: 97,
+        nota5: 100,
+        nota6: 89,
+        nota7: 97,
+        nota8: 87,
+        nota9: 85,
+        nota10: 86,
+    }
 
+},
+estudiante3 :{
+    nota:{
+        nota1: 89,
+        nota2: 87,
+        nota3: 80,
+        nota4: 90,
+        nota5: 89,
+        nota6: 99,
+        nota7: 97,
+        nota8: 100,
+        nota9: 80,
+        nota10: 90,
+    }
+
+},
+estudiante4 :{
+    nota:{
+        nota1: 90,
+        nota2: 95,
+        nota3: 88,
+        nota4: 83,
+        nota5: 80,
+        nota6: 89,
+        nota7: 97,
+        nota8: 87,
+        nota9: 70,
+        nota10: 85,
+    }
+}
+estudiante1 = {
+promedio = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10) / 10
+
+console.log(promedio);
+}
+console.log(estudiante1)
 // 4. Buscar el estudiante mayor
 // Recorrer el arreglo y mostrar el estudiante con mayor edad.
 // 5. Filtrar estudiantes aprobados
